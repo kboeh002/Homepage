@@ -53,3 +53,20 @@ this.rawBlock = block.split("\b");     /** splitting raw block by everything */
   }
   
 }
+
+
+
+/** final info */
+everything that was on the midterm
+java doc, documenting your code
+you can go through the questions from midterm on blackboard
+look at report/anal tools
+javadoc style tools and how they are used
+integration and system tests - be able to explain how they are 
+different from unit tests and when they are used. you dont need to be able to write them
+final is 28th to 29th - 3hr window
+
+
+
+
+
