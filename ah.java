@@ -19,10 +19,11 @@ boolean[] bArr = {false};
 class Token() {
   String theWord = "";
   boolean[] arr = {false};
-  setFuckingFeatures(String theWord);
+  setFuckingFeatures();
 
-  setFuckingFeatures(String theWord){
-      arr = feature.getFeatures(theWord); // will return a bool array
+  
+  setFuckingFeatures(){
+      arr = feature.getFeatures(this.theWord); // will return a bool array
   }
 
 }
@@ -48,7 +49,7 @@ this.rawBlock = block.split("\b");     /** splitting raw block by everything */
   
   for(Token t: this.tokens){
   /** t contains our word... */
-      t.setFeatures();
+      t.setFuckingFeatures();
   }
   
 }
